@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-clr: #659f8f;
+    --drk-bg-clr: #313131;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 5em;
+    background-color: var(--bg-clr);
+}
+
+img{
+    width: 200px;
+}
