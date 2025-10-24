@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-between;
     padding: 2em;
-    background-color: aquamarine;
 }
 
 .container form label{
@@ -46,6 +45,7 @@
     background-color: var(--scndary-clr);
     padding: .5em 1em;
     border: none;
+    margin-left: 10px;
     border-radius: 5px;
 }
 
@@ -68,8 +68,30 @@
     color: var(--scndary-clr);
 }
 
-img{
-    width: 200px;
+hr{
+    border: none;
+    height: 1px;
+    background-color: var(--scndary-clr);
 }
 
-/* Responsive-ipad */
+img{
+    max-width: 200px;
+}
+
+/* Responsive-ipad (768px) */
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 85%;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+}
+
+/* Responsive iphone (375px) */
+
+@media (max-width: 376px){
+    .footer{
+        height: 100%;
+    }
+}
