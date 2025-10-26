@@ -91,7 +91,53 @@ img{
 /* Responsive iphone (375px) */
 
 @media (max-width: 376px){
+
     .footer{
-        height: 100%;
+        padding: 2em 1em;
     }
+
+    .footer .container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    .container form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container form input{
+        width: 100%;
+        padding: .5em;
+    }
+
+    .container form button{
+        width: 100%;
+        padding: .5em;
+        margin-top: 1em;
+    }
+
+    .container .link-box{
+        width: 50%;
+    }
+
+    .container .links{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: .5em;
+    }
+
+    .container .technologies-box .links a{
+        width: 100%;
+    }
+
+    
+
 }
